@@ -1,0 +1,25 @@
+{
+  "name": "gulp-btr",
+  "version": "1.0.0",
+  "description": "Gulp plugin for BTR rendering",
+  "author": "Trubnikov-Panov Egor <egor.a.trubnikov@yandex.ru>",
+  "repository": "https://github.com/egor-a-trubnikov-panov/gulp-btr",
+  "licence": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "dependencies": {
+    "btr": "^1.0.0",
+    "through2": "^1.1.1",
+    "vinyl": "^0.3.2",
+    "vinyl-fs": "^0.3.6"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  }
+}
